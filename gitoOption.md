@@ -18,11 +18,14 @@ git branch dev //创建分支dev
 git swich dev //新版本支持使用swich创建新分支 避免和撤销操作混淆
 git checkout dev //将header 指向dev 使用dev分支
 git checkout -b dev //使用dev分支并创建它
+git checkout -b dev origin/dev //使用远端的dev分支 来创建本地的dev分支
 git branch -d dev //删除dev分支
 git branch //查看分支列表 带*的属于当前分支
 git branch -a //能展示远端分支
+git branch --set-upstream-to=origin/dev dev //如果本地与远端分支无联系 需要建立关联
 git merge dev //将dev分支合并到当前分支
 git stash //将当前修改暂存一下 这个命令有点慢 感觉在拷贝什么
 git stash list //查看当前 保存的列表
 git stash pop //相当于unstash 并删除
 git cherry-pick commitID //将某个提交 合并到当前分支 局部merge
+git pull //从远端分支拉取更新
