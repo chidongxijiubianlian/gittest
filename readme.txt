@@ -4,3 +4,4 @@ hello
 ouyayou
 tracks changes of files
 zhangsan nihao
+Creating a new branch is quick AND simple.
