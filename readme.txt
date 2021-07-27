@@ -7,3 +7,4 @@ zhangsan nihao
 Creating a new branch is quick & simple.
 Creating a new branch is quick AND simple.
 Dev breanch new add!!!!!!!!!?????
+fix bug 1001
