@@ -8,3 +8,6 @@ git checkout -- xxx.txt //让工作区撤销更改 保持和暂存区一致git c
 git remote add origin https://github.com/chidongxijiubianlian/gittest.git //将已有的本地目录仓库关联远端并且推送
 git remote set-url origin https://chidongxijiubianlian:xxxx@github.com/chidongxijiubianlian/gittest.git
 git clone git@github.com:chidongxijiubianlian/gitskills.git //从远端clone仓库 不需要加用户名密码
+git branch dev //创建分支dev
+git checkout dev //将header 指向dev 使用dev分支
+git checkout -b dev //使用dev分支并创建它
