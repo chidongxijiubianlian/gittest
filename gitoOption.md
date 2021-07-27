@@ -9,7 +9,9 @@ git remote add origin https://github.com/chidongxijiubianlian/gittest.git //将�
 git remote set-url origin https://chidongxijiubianlian:xxxx@github.com/chidongxijiubianlian/gittest.git
 git clone git@github.com:chidongxijiubianlian/gitskills.git //从远端clone仓库 不需要加用户名密码
 git branch dev //创建分支dev
+git swich dev //新版本支持使用swich创建新分支 避免和撤销操作混淆
 git checkout dev //将header 指向dev 使用dev分支
 git checkout -b dev //使用dev分支并创建它
 git branch -d dev //删除dev分支
+git branch //查看分支列表 带*的属于当前分支
 git merge dev //将dev分支合并到当前分支
