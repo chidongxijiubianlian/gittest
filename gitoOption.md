@@ -11,3 +11,5 @@ git clone git@github.com:chidongxijiubianlian/gitskills.git //从远端clone仓�
 git branch dev //创建分支dev
 git checkout dev //将header 指向dev 使用dev分支
 git checkout -b dev //使用dev分支并创建它
+git branch -d dev //删除dev分支
+git merge dev //将dev分支合并到当前分支
