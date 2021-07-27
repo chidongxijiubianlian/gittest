@@ -18,4 +18,9 @@ git checkout dev //将header 指向dev 使用dev分支
 git checkout -b dev //使用dev分支并创建它
 git branch -d dev //删除dev分支
 git branch //查看分支列表 带*的属于当前分支
+git branch -a //能展示远端分支
 git merge dev //将dev分支合并到当前分支
+git stash //将当前修改暂存一下 这个命令有点慢 感觉在拷贝什么
+git stash list //查看当前 保存的列表
+git stash pop //相当于unstash 并删除
+git cherry-pick commitID //将某个提交 合并到当前分支 局部merge
