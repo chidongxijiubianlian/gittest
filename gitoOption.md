@@ -2,6 +2,8 @@ git status //查看状态
 git log //查看提交记录
 git log --pretty=oneline //格式化log
 git reset --hard commitId //将git版本回退到某个commit
+git reset HEAD abc.txt //用于回退暂存区里的修改记录 可以理解成 add的逆向操作
+git checkout -- abc.txt //用于撤销工作区文件的修改
 git diff //查看工作区与版本库里面的区别
 git diff HEAD --xxx.txt //查看某个文件工作区与版本库的区别
 git checkout -- xxx.txt //让工作区撤销更改 保持和暂存区一致git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
