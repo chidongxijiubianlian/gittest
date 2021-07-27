@@ -2,6 +2,7 @@ git status //查看状态
 git log //查看提交记录
 git log --pretty=oneline //格式化log
 git reset --hard commitId //将git版本回退到某个commit
+git reset --hard HEAD^ //用于将已commit的修改 回退到上一个版本
 git reset HEAD abc.txt //用于回退暂存区里的修改记录 可以理解成 add的逆向操作
 git checkout -- abc.txt //用于撤销工作区文件的修改
 git diff //查看工作区与版本库里面的区别
