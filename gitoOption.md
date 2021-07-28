@@ -29,3 +29,4 @@ git stash list //查看当前 保存的列表
 git stash pop //相当于unstash 并删除
 git cherry-pick commitID //将某个提交 合并到当前分支 局部merge
 git pull //从远端分支拉取更新
+git rebase //将提交历史修改为一条直线 方便观看而已
