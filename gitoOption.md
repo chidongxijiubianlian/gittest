@@ -34,3 +34,6 @@ git tag v1.0.0 //创建一个tag
 git tag show v1.0.0 //查看tag的详情
 git tag //查看tag列表
 git tag -a v1.0.0 -m "提交的内容" //创建有提交内容的tag
+git tag -d v1.0.0 //删除本地tag
+git push origin v1.0.0 //提交本地tag到远端
+git push origin :refs/tags/v1.0.0 //删除远端tag
